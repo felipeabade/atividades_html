@@ -1,0 +1,69 @@
+<!DOCTYPE html> 
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta http-equiv="viewport" content="IE=edge">
+<meta name="viemport" content="width=device-width, inicial-scale=1.0">
+
+<title>Formulário HTML</title>
+</head>
+<body>
+
+  <form>
+    <div>
+      <p>Nome</p>
+        <label for="name"></label>
+        <input type="text" id="name" placeholder="Digite seu nome" required />
+    </div>
+
+    <div>
+      <p>E-mail</p>
+        <label for=" e-mail"></label>
+        <input type= "email" id="e-mail" placeholder="Digite seu e mail" required />
+      </div>
+
+     <div> 
+      <p>Descrição</p>
+        <label for="msg"></label>
+         <textarea placeholder="Fale mais sobre você aqui" id="msg" name ="msg"></textarea>
+         
+      </div>
+<div> 
+    
+     <p>Módulos</p>
+<select>
+  <optgroup label="Módulos">
+        <option value="Módulo 1">Módulo 1</option>
+        <option value="Módulo 2">Módulo 2</option>
+        <option value="Módulo 3">Módulo 3</option>
+        <option value="Módulo 4">Módulo 4</option>
+        <option value="Módulo 5">Módulo 5</option>
+        <option value="Módulo 6">Módulo 6</option>
+      </optgroup>
+      </select>
+</div>
+<div>
+  <label for="Senha"><p>Senha</p></label>
+  <input type="password" placeholder="Digite sua senha aqui..." required />
+</div>
+
+<div>
+  <label for="Confirmar sua senha"><p>Confirmar sua senha</p></label>
+  <input type="password" placeholder="Confirmar senha novamente..."/>
+</div>
+
+<p> Deseja receber novidades em seu e-mail?</p>
+
+<label for="Sim">Sim</label>
+<input id="Sim" type="radio" name="resposta"/>
+
+<label for="não">Não</label>
+<input id="não" type="radio" name="resposta"/>
+<div class="button">
+  <p></p>
+        <button type="submit">Cadastrar</button>
+      </div>
+</form>
+
+</body>
+</html>
